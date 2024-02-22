@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background color changer</title>
+    <style>
+        body{
+            justify-content: center;
+            display: flex;
+        }
+        .mybutton{
+            text-align: center;
+        }
+        .button{
+            border: 1px solid black;
+            display:inline-block;
+            height: 100px;
+            width: 100px;
+            margin-right: 10px;
+            text-align: center;
+        }
+        #grey{
+            background-color: gray;
+            border-color: black;
+        }
+        #white{
+            background-color: azure;
+          
+            border-color: black;
+        }
+        #blue{
+            background-color:blue;
+            
+            border-color: black;
+        }
+        #yellow{
+            background-color: yellow;
+            
+            border-color: black;
+        }
+    </style>
+</head>
+<body class="mybody" id="mybodyid">
+    <div class="mybutton">
+        <h1>Click on the color to change the background</h1>
+    <span class="button" id="grey"></span>
+    <span class="button" id="white"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="yellow"></span>
+    </div>
+    <script src="bg_clr.js"></script>
+</body>
+</html>
